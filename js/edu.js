@@ -142,13 +142,13 @@
 			username = md5(username),
 			pswd = md5(pswd);
 		var data = {'userName':username,'password':pswd};
-		url = 'http://study.163.com/webDev/login.htm';
+		url = 'https://study.163.com/webDev/login.htm';
 		get(url,data,login);
 	}
 	function login(value){
 		if(value == 1){
 			setCookie('loginSuc','true',24);
-			get('http://study.163.com/webDev/attention.htm',' ',function(a){
+			get('https://study.163.com/webDev/attention.htm',' ',function(a){
 				if(a == 1){
 					var flw = document.getElementById('lbtn'),flwed = document.getElementById('follow');
 					setCookie('followSuc','true',24);
@@ -165,7 +165,7 @@
 
 //生成课程卡片，设置课程卡片位置
 	var getCourse = {
-		url:'http://study.163.com/webDev/couresByCategory.htm',
+		url:'https://study.163.com/webDev/couresByCategory.htm',
 		addElements:function(getdata) {
 			// body...
 			var data = JSON.parse(getdata);
@@ -306,7 +306,7 @@
 
 //获取最热排行课程
 	var getHotCourse = {
-		url: 'http://study.163.com/webDev/hotcouresByCategory.htm',
+		url: 'https://study.163.com/webDev/hotcouresByCategory.htm',
 		addElements: function(getdata) {
 			var data = JSON.parse(getdata),li,img,a,span;
 			var hotcourse = document.getElementById('hotList');
