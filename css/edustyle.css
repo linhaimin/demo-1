@@ -81,7 +81,7 @@
 	.g-body .m-course .courseCont .h-card div{height: 155px;}
 	.g-body .m-course .courseCont .h-card img{float: left; width: 223px;height: 124px;margin-top: 11px;margin-left: 11px;}
 	.g-body .m-course .courseCont .h-card h3{float: left;width: 226px; margin-top: 15px;margin-left: 20px;font: 18px/20px "微软雅黑",sans-serif;color: #333;}
-	.g-body .m-course .courseCont .h-card #lecount{float: left;margin-left: 20px;box-sizing: border-box; width: 226px;height: 14px;padding-left: 18px;text-align: left; font: 12px "微软雅黑",sans-serif;color: #666;background: url(../image/sprite.png) no-repeat -274px -33px;}
+	.g-body .m-course .courseCont .h-card #lecount{float: left;margin-left: 20px;box-sizing: border-box; width: 120px;height: 14px;padding-left: 18px;text-align: left; font: 12px "微软雅黑",sans-serif;color: #666;background: url(../image/sprite.png) no-repeat -274px -33px;}
 	.g-body .m-course .courseCont .h-card #publisher{float: left;width: 226px;margin-top: 13px; margin-left: 20px;font: 12px "微软雅黑",sans-serif;color: #666;}
 	.g-body .m-course .courseCont .h-card #sort{float: left;width: 226px;margin-top: 6px;margin-left: 20px;font:12px "微软雅黑",sans-serif;color: #666;}
 	.g-body .m-course .courseCont .h-card #description{box-sizing: border-box;width: 480px;height: auto;margin-bottom: 0; padding: 22px; font:14px/25px "微软雅黑",sans-serif;color: #666;background-color: #f8f8f8;overflow: hidden;text-overflow: ellipsis;}
